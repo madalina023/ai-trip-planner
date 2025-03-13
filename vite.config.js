@@ -11,7 +11,8 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
- 
+   base: '/ai-trip-planner/',
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
